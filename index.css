@@ -169,7 +169,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Defaults use Material Design specification */
   /* my custom colors */
   /* --my-main-color:#D1B498; */
-  --my-main-color:hsl(28, 14%, 78%);
+  --my-main-color:hsl(28, 14%, 88%);
   --jp-content-font-color0: var(--my-main-color);
   --jp-content-font-color1: var(--my-main-color);
   --jp-content-font-color2: var(--my-main-color);
@@ -211,7 +211,8 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: #111;
+  /* --jp-layout-color0: #111; */
+  --jp-layout-color0: hsl(24, 6%, 10%);
   --jp-layout-color1: var(--md-grey-900, #212121);
   --jp-layout-color2: var(--md-grey-800, #424242);
   --jp-layout-color3: var(--md-grey-700, #616161);
@@ -266,7 +267,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-collapser-width: 8px;
   --jp-cell-collapser-min-height: 20px;
   --jp-cell-collapser-not-active-hover-opacity: 0.6;
-  --jp-cell-editor-background: var(--jp-layout-color1);
+  /* --jp-cell-editor-background: var(--jp-layout-color1); */
+  --jp-cell-editor-background: hsl(10, 8%, 10%);
   --jp-cell-editor-border-color: var(--md-grey-700, #616161);
   --jp-cell-editor-box-shadow: inset 0 0 2px var(--md-blue-300, #64b5f6);
   --jp-cell-editor-active-background: var(--jp-layout-color0);
@@ -347,6 +349,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 
   /* Code mirror specific styles */
+
   /* my custom colors */
   /* bright purple color hex #AA22FF */
   --jp-mirror-editor-keyword-color: hsl(4, 58%, 71%);
