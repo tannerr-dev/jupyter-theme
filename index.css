@@ -232,12 +232,22 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-inverse-layout-color4: var(--md-grey-600, #757575);
 
   /* Brand/accent */
+  /* my custom color */
+  /* purple */
+  /* --my-brand-color:hsl(270, 100%, 80%);  */
+  /* green */
+  --my-brand-color:hsl(100, 50%, 70%);
+  --jp-brand-color0: var(--my-brand-color);
+  --jp-brand-color1: var(--my-brand-color);
+  --jp-brand-color2: var(--my-brand-color);
+  --jp-brand-color3: var(--my-brand-color);
+  --jp-brand-color4: var(--my-brand-color);
 
-  --jp-brand-color0: var(--md-blue-700, #1976d2);
-  --jp-brand-color1: var(--md-blue-500, #2196f3);
-  --jp-brand-color2: var(--md-blue-300, #64b5f6);
-  --jp-brand-color3: var(--md-blue-100, #bbdefb);
-  --jp-brand-color4: var(--md-blue-50, #e3f2fd);
+  /* --jp-brand-color0: var(--md-blue-700, #1976d2); */
+  /* --jp-brand-color1: var(--md-blue-500, #2196f3); */
+  /* --jp-brand-color2: var(--md-blue-300, #64b5f6); */
+  /* --jp-brand-color3: var(--md-blue-100, #bbdefb); */
+  /* --jp-brand-color4: var(--md-blue-50, #e3f2fd); */
   --jp-accent-color0: var(--md-green-700, #388e3c);
   --jp-accent-color1: var(--md-green-500, #4caf50);
   --jp-accent-color2: var(--md-green-300, #81c784);

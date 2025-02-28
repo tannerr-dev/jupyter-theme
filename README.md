@@ -17,6 +17,21 @@ Putting these here to point out the locations of some of the "main" css variable
   --jp-layout-color1:  hsl(32, 6%, 12%);
 ```
 
+```
+
+  /* Brand/accent */
+  /* my custom color */
+  /* purple */
+  /* --my-brand-color:hsl(270, 100%, 80%);  */
+  /* green */
+  --my-brand-color:hsl(100, 50%, 70%);
+  --jp-brand-color0: var(--my-brand-color);
+  --jp-brand-color1: var(--my-brand-color);
+  --jp-brand-color2: var(--my-brand-color);
+  --jp-brand-color3: var(--my-brand-color);
+  --jp-brand-color4: var(--my-brand-color);
+```
+
 
 ```
 /* Defaults use Material Design specification */
