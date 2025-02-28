@@ -165,11 +165,12 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Defaults use Material Design specification */
   /* my custom colors */
   /* --my-main-color:#D1B498; */
-  --my-main-color:hsl(28, 14%, 88%);
+  --my-main-color:hsl(28, 10%, 84%);
   --jp-content-font-color0: var(--my-main-color);
   --jp-content-font-color1: var(--my-main-color);
   --jp-content-font-color2: var(--my-main-color);
   --jp-content-font-color3: var(--my-main-color);
+
   /* --jp-content-font-color0: rgba(255, 255, 255, 1); */
   /* --jp-content-font-color1: rgba(255, 255, 255, 1); */
   /* --jp-content-font-color2: rgba(255, 255, 255, 0.7); */
@@ -207,7 +208,8 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
   /* my custom color */
-  --jp-layout-color0: hsl(24, 6%, 10%);
+  /* background color */
+  --jp-layout-color0: hsl(32, 6%, 12%);
 
   /* --jp-layout-color0: #111; */
   --jp-layout-color1: var(--md-grey-900, #212121);
@@ -260,7 +262,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Cell specific styles */
   /* my custom color */
-  --jp-cell-editor-background: hsl(10, 8%, 10%);
+  --jp-cell-editor-background: hsl(32, 8%, 14%);
 
   --jp-cell-padding: 5px;
   --jp-cell-collapser-width: 8px;
@@ -359,11 +361,11 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-variable-2-color:#51D4FF;
   --jp-mirror-editor-variable-3-color: #51D4FF;
   --jp-mirror-editor-punctuation-color:  #51D4FF;
-  --jp-mirror-editor-property-color:#EBA22C;
+  --jp-mirror-editor-property-color:hsl(37, 83%, 70%);
   --jp-mirror-editor-operator-color: #C0A57A;
-  --jp-mirror-editor-comment-color: #584E4C;
-  --jp-mirror-editor-string-color: #DCADF0;
-  --jp-mirror-editor-string-2-color:#B656DF;
+  --jp-mirror-editor-comment-color: hsl(7, 7%, 45%);
+  --jp-mirror-editor-string-color: hsl(282, 49%, 88%);
+  --jp-mirror-editor-string-2-color:hsl(282, 49%, 71%);
   --jp-mirror-editor-meta-color: #a2f;
   --jp-mirror-editor-qualifier-color: #AA22FF;
   --jp-mirror-editor-builtin-color: #83D0E9;

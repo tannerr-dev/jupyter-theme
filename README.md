@@ -1,7 +1,8 @@
 ~/.local/share/jupyter/lab/themes/@jupyterlab/theme-dark-extension$
 
 
-
+these values are just examples at this point, the values would have changed.
+Putting these here to point out the locations of some of the "main" css variables
 
 ```
   /* Layout
@@ -10,6 +11,7 @@
    * theme these would go from light to dark.
    */
   /* my custom color */
+  /* background color */
   --jp-layout-color0: hsl(24, 6%, 10%);
 ```
 
