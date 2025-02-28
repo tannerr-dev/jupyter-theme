@@ -12,7 +12,9 @@ Putting these here to point out the locations of some of the "main" css variable
    */
   /* my custom color */
   /* background color */
-  --jp-layout-color0: hsl(24, 6%, 10%);
+  --jp-layout-color0: hsl(32, 6%, 12%);
+  /* sidebar and menu bar color */
+  --jp-layout-color1:  hsl(32, 6%, 12%);
 ```
 
 
