@@ -236,7 +236,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* purple */
   /* --my-brand-color:hsl(270, 100%, 80%);  */
   /* green */
-  --my-brand-color:hsl(100, 50%, 70%);
+  /* --my-brand-color:hsl(100, 50%, 70%); */
+  /* yellow */
+  --my-brand-color:hsl(48, 50%, 75%);
+
   --jp-brand-color0: var(--my-brand-color);
   --jp-brand-color1: var(--my-brand-color);
   --jp-brand-color2: var(--my-brand-color);
