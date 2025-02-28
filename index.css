@@ -349,10 +349,11 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Code mirror specific styles */
   /* my custom colors */
   /* bright purple color hex #AA22FF */
-  --jp-mirror-editor-keyword-color: #C37D3B;
+  --jp-mirror-editor-keyword-color: hsl(4, 58%, 71%);
   --jp-mirror-editor-atom-color: #E7A0E9 ;
   --jp-mirror-editor-number-color: #89FFDC;
   --jp-mirror-editor-def-color: #C37D3B;
+  --jp-mirror-editor-def-color: hsl(351, 79%, 71%); 
   --jp-mirror-editor-variable-color:#51D4FF;
   --jp-mirror-editor-variable-2-color:#51D4FF;
   --jp-mirror-editor-variable-3-color: #51D4FF;
