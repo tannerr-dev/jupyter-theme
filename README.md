@@ -25,6 +25,13 @@
 --jp-content-font-color3: var(--my-main-color);
 ```
 
+```
+  /* Cell specific styles */
+  /* my custom color */
+  --jp-cell-editor-background: hsl(10, 8%, 10%);
+
+```
+
 
 ```
   /* Code mirror specific styles */
