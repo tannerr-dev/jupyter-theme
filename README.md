@@ -1,5 +1,5 @@
 ~/.local/share/jupyter/lab/themes/@jupyterlab/theme-dark-extension$
-
+![photo of the theme in jupyter lab](https://cdn.discordapp.com/attachments/1352110680450269204/1352295528662040620/Screenshot_from_2025-03-20_09-59-05.png?ex=67de279a&is=67dcd61a&hm=86bfac82ae7f6f804f6f6257fe9cb6bcd2c56a1892a0c0408ae138b8ddda908b&)
 
 these values are just examples at this point, the values would have changed.
 Putting these here to point out the locations of some of the "main" css variables
